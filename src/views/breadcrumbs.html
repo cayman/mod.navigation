@@ -1,0 +1,14 @@
+<ul>
+    <li ng-repeat="item in breadcrumbs.items">
+        <a href="{{ item.href }}" ng-if="!$last">
+            {{ item.name }}
+        </a>
+
+        <span ng-if="!$last" class="breadCrumbsDelimiter">/</span>
+
+        <span ng-if="$last">
+            {{ item.name }}
+        </span>
+
+    </li>
+</ul>

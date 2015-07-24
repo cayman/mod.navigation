@@ -1,0 +1,23 @@
+name: navigation
+animateTime: 400
+breadcrumbs:
+  items:
+menu:
+  name: Title
+  href: "index.html"
+#  image: /img/title.png
+  items:
+    - name: Item 1
+      items:
+        - { name: Item 1.1, target: _blank, href: 'index.html' }
+        - { name: Item 1.2, target: _blank, href: 'index.html' }
+        - { name: Item 1.3, target: _blank, href: 'index.html' }
+        - { name: ...Over, href: 'index.html', class: "itemGray" }
+    - name: Item 2
+      items:
+        - { name: Item 2.1, href: 'index.html' }
+        - { name: Item 2.2, href: 'index.html' }
+        - { name: Item 2.3, href: 'index.html' }
+        - { name: ...Over, href: 'index.html', class: "itemGray" }
+    - name: Item 3
+      href: "#"
